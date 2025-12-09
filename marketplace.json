@@ -1,0 +1,7 @@
+{
+  "name": "aifirst-app",
+  "description": "AI-First Startup Tools - rapid validation specs, landing pages, pitch decks",
+  "plugins": [
+    "plugins/startup-spec"
+  ]
+}
