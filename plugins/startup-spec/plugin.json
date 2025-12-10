@@ -1,9 +1,0 @@
-{
-  "name": "startup-spec",
-  "description": "AI-First Startup Spec Generator - rapid validation and full startup documentation",
-  "version": "1.0.0",
-  "commands": [
-    "commands/startup-spec.md",
-    "commands/rapid-spec.md"
-  ]
-}

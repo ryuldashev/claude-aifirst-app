@@ -1,7 +1,18 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "aifirst-app",
+  "version": "1.0.0",
   "description": "AI-First Startup Tools - rapid validation specs, landing pages, pitch decks",
+  "owner": {
+    "name": "Ruslan Yuldashev",
+    "email": "ryuldashev@gmail.com"
+  },
   "plugins": [
-    "plugins/startup-spec"
+    {
+      "name": "startup-spec",
+      "description": "AI-First Startup Spec Generator - rapid validation and full startup documentation",
+      "source": "./plugins/startup-spec",
+      "category": "productivity"
+    }
   ]
 }
